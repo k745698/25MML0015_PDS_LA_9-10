@@ -1,0 +1,32 @@
+# Keep only source code, build definitions, and the input dataset in the repo
+
+# Generated program outputs (charts written by the programs)
+output/
+**/output/
+
+# Screenshots and the lab record documents
+screenshots/
+record/
+*.pdf
+*.docx
+*.doc
+*.png
+*.jpg
+*.jpeg
+*.html
+
+# sbt / scala-cli / IDE build output
+target/
+project/target/
+project/project/
+.scala-build/
+.bsp/
+.bloop/
+.metals/
+.idea/
+.vscode/
+
+# OS files
+Thumbs.db
+desktop.ini
+.DS_Store
